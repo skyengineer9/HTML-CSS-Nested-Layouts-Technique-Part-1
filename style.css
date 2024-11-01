@@ -1,0 +1,54 @@
+.main-container {
+  border: 1px solid #979797;
+  width: 430px;
+}
+
+.profile-container {
+  width: 400px;
+  padding: 12px;
+}
+
+.profile-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-main {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.profile-description {
+  margin-left: 12px;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.profile-petname,
+.profile-rating {
+  line-height: 6px;
+  color: #363636;
+  font-size: 18px;
+}
+
+.profile-button button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #2d8fff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
